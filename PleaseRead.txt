@@ -1,2 +1,3 @@
-I applied changes to the encoder processing. 
-Latest version is in the zip file I uploaded today (Dec. 06.22).
+I applied changes to the encoder processing.
+Fixed a bug with F1.
+Latest version is in the zip file I uploaded today (Dec. 07.22).
