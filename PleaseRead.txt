@@ -1,0 +1,2 @@
+I applied changes to the encoder processing. 
+Latest version is in the zip file I uploaded today (Dec. 06.22).
