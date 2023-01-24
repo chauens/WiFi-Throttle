@@ -1,0 +1,13 @@
+Latest version 1.2 contains an addition and a fix:
+1) fixed client connect/re-connect time out. It did not work 
+   when the server was not ready before the throttle 
+   tried to connect, or when the connection was briefly lost.
+   The throttle will retry to connect for up to 1 min.
+2) added "select functions by name": Press F-key to step through
+   function Groups where the last step is "F select". That displays
+   function names that are available for the selected loco and their
+   current state. Turning the speed knob steps through the functions, 
+   push it to change its state. Press F-key to end or cancel.
+
+
+ 
