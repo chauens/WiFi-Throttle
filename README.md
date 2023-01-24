@@ -33,6 +33,7 @@ Features:
 <li>Up to 100 Locos in your roster can be selected. The limit of 100 can be extended if needed.</li> 
 <li>Enter DCC addresses via 3x4 Numeric-Keypad.</li>
 <li>Operate Turnouts (stationary aka assessory decoders).</li>
+<li>Select Function by Name</li>
 <li>Select Speed Step Mode 28 or 128.</li>
 <li>Display the Fast Clock from JMRI.</li>
 <li>Display turns dark when not in use for 2 minutes.</li> 
