@@ -15,7 +15,7 @@ The main components in my throttle are:
   <li>Toggle Switch ON/OFF for Bell.</.i>
   <li>Push Buttons for Whistle, Coupler.</li>
   <li>LiPo Battery.</li>
-  <li>Self-designed PCB using edging service.</li>
+  <li>PCB using edging service.</li>
   <li>Software included in package uploaded to the ESP32 board using the Arduino IDE.</li>
   <li>Computer with WiFi connection running JMRI Panel Pro or Decoder Pro.</li>
   <li>In my case I loaded the JMRI Panel Pro on a Raspberry Pi.</li>
