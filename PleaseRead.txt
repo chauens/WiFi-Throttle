@@ -1,4 +1,4 @@
-Latest version 1.2 contains an addition and a fix:
+Latest version (230705) contains:
 1) fixed client connect/re-connect time out. It did not work 
    when the server was not ready before the throttle 
    tried to connect, or when the connection was briefly lost.
@@ -8,6 +8,6 @@ Latest version 1.2 contains an addition and a fix:
    function names that are available for the selected loco and their
    current state. Turning the speed knob steps through the functions, 
    push it to change its state. Press F-key to end or cancel.
-
+3) Long pressing speed knob in "function select" alternated on/off.
 
  
