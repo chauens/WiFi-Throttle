@@ -1,13 +1,13 @@
-Latest version (230705) contains:
-1) fixed client connect/re-connect time out. It did not work 
-   when the server was not ready before the throttle 
-   tried to connect, or when the connection was briefly lost.
-   The throttle will retry to connect for up to 1 min.
-2) added "select functions by name": Press F-key to step through
-   function Groups where the last step is "F select". That displays
-   function names that are available for the selected loco and their
-   current state. Turning the speed knob steps through the functions, 
-   push it to change its state. Press F-key to end or cancel.
-3) Long pressing speed knob in "function select" alternated on/off.
+New version (230806):
+can be set up as Single- or Multi-Throttle, up to 4 throttles.
+After the program is uploaded the first time it is configured as Single Throttle.
+It can be changed as follows:
+When the throttle is turned on it displays the version and then
+"Press Stop for setup" for up to 5 seconds. 
+If you do nothing within the 5 seconds it starts with the current setting.
+If Stop is pushed within 5 seconds the current 'number of throttle' setting is displayed.
+Turn the knob to the desired number of throttles. 
+Push the knob to take the new setting and exit setup.
+Selecting '1 Throttle' puts the device as Single Throttle. 
 
  
