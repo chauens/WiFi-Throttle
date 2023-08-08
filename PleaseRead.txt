@@ -10,4 +10,8 @@ Turn the knob to the desired number of throttles.
 Push the knob to take the new setting and exit setup.
 Selecting '1 Throttle' puts the device as Single Throttle. 
 
+Changing between throttles during normal run:
+Press the button "S1" which is the one with the Loco-Release symbol in the old pictures.
+This button does "switch between throttles" in Multi-Throttle mode.
+In "Single-Throttle" mode it is for releasing the current loco. 
  
