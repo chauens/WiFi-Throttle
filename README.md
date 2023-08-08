@@ -6,7 +6,6 @@ The functions are configured in the JMRI roster.
 <ol>
 The main components in my throttle are:
 </ol>
-<ol>
   <li>DIY Keypad with 16 buttons in 4 rows and 4 columns.</li> 
   <li>OLED 128x64 like SSD1306 type with I2C controller, 3-5V.</li>
   <li>Rotary Encoder.</li>
@@ -29,6 +28,7 @@ A matching function name in the JMRI-Roster selects the function number that wil
 So all you need to do is go to the JMRI Roster and put the names of the switches to the function number of the locomotive. If a function is not available or not needed, just don’t define it in the Roster.
 </ol>
 Features:
+<li>New: Can be configured as Single- or Multi-Throttle for up to 4.</li>
 <li>Select DCC addresses from the roster in JMRI by stepping through the roster turning the Speed Knob.</li>
 <li>Up to 100 Locos in your roster can be selected. The limit of 100 can be extended if needed.</li> 
 <li>Enter DCC addresses via 3x4 Numeric-Keypad.</li>
