@@ -13,7 +13,7 @@ int btnnum = 0;     // button number
 int btnsav = 0;
 bool kpreadON = false;
 byte dbcdly = 50;      // debounce delay
-#define EEPROM_SIZE 96  // 0+1=dccadr, 2-13=stack. 20-84=keypad.
+#define EEPROM_SIZE 96  // 0+1=dccadr, 2-13=stack, 19=# throttles. 20-84=keypad, 95=debug flag.
 byte offset[16];
 void setup() {
   byte j = 20;
@@ -42,7 +42,7 @@ void setup() {
   btnprvl = 5000;   // reset
   Serial.println("If not all values are zero decrease resistor connecting keypad buttons to ground.");
   Serial.println("For testing or saving button values: push a button for about 2 sec.");
-  Serial.println("Current EEPROM content: ");
+  Serial.println("Current EEPROM keypad content: ");
   j = 20;
   for (byte i = 0; i < 32; i++) {
     int val = EEPROM.read(j);
@@ -53,6 +53,8 @@ void setup() {
     Serial.print(",");
   }
   Serial.println();
+  int val = EEPROM.read(19);  // get # of throttles
+  if (val != 1) EEPROM.write(19, 1);  // init throttle for "single"
 }
 void loop() {
   btnread = analogRead(keypadin);
