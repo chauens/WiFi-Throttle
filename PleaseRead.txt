@@ -15,3 +15,10 @@ Press the button "S1" which is the one with the Loco-Release symbol in the old p
 This button does "switch between throttles" in Multi-Throttle mode.
 In "Single-Throttle" mode it is for releasing the current loco. 
  
+New version (230817):
+Normally function 1 (Europe) or function 8 (US/Australia) are turning on/off sound (engine). 
+Which function key it should be can now be selected in the JMRI-Roster. 
+Write "Sound" (or any other word you decided to use in the throttle pgm) in one of the function
+definitions in the roster - F1 or F8.
+If function "Fade" is also defined in the roster the Sound-function-key will start/stop the Fade
+function while driving.
