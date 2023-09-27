@@ -23,6 +23,8 @@ definitions in the roster: F1 or F8.
 If function "Fade" is also defined in the roster the Sound-function-key will start/stop the Fade
 function while driving.
 
-New version 230906:
+Previous version 230906:
 Last dcc address was only saved for throttle 1. Now it is saved for all throttles.
  
+New version 230925:
+ cleaned up "klunky" encoder interrupt subroutine.
