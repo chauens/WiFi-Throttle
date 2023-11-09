@@ -41,3 +41,5 @@ New version 231028:
     first showing the current setting, searching for nearby networks and display. 
     You have the option to select a network from the list. Next you can manually 
     enter the network password and the host IP address of the JMRI server.
+See File MCabUpdate.docx within zip file MCabFiles for a description of the update.
+See file MCabSource for the new source code. 
