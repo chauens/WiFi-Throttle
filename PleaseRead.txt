@@ -26,5 +26,18 @@ function while driving.
 Previous version 230906:
 Last dcc address was only saved for throttle 1. Now it is saved for all throttles.
  
-New version 230925:
+Previous version 230925:
  cleaned up "klunky" encoder interrupt subroutine.
+
+Previuos version 231011:
+ extended Multi-Throttle for up to 6 throttles.
+
+New version 231028:
+ a) removed bug'ed 'set speed step mode' from E-Stop. Use brake instead.
+ b) fixed fade function in changing throttles.
+ c) search network ssid, select ssid, enter password and host ip address: 
+    In stop/setup: after the 1. setup option "select nbr of throttles" new options are 
+    appearing: 
+    first showing the current setting, searching for nearby networks and display. 
+    You have the option to select a network from the list. Next you can manually 
+    enter the network password and the host IP address of the JMRI server.
