@@ -29,11 +29,11 @@ Last dcc address was only saved for throttle 1. Now it is saved for all throttle
 Previous version 230925:
  cleaned up "klunky" encoder interrupt subroutine.
 
-Previuos version 231011:
+Previous version 231011:
  extended Multi-Throttle for up to 6 throttles.
 
-New version 231028:
- a) removed bug'ed 'set speed step mode' from E-Stop. Use brake instead.
+Previous version 231028:
+ a) removed bug'ed 'set speed step mode' from E-Stop. Use brake button instead.
  b) fixed fade function in changing throttles.
  c) search network ssid, select ssid, enter password and host ip address: 
     In stop/setup: after the 1. setup option "select nbr of throttles" new options are 
@@ -43,3 +43,16 @@ New version 231028:
     enter the network password and the host IP address of the JMRI server.
 See File MCabUpdate.docx within zip file MCabFiles for a description of the update.
 See file MCabSource for the new source code. 
+
+New version 231113:
+a) New location seeting: the code provides a “default = hardcoded” network configuration. 
+   It can be used for instance for your home layout and can only be changed by altering 
+   the code as described in the MCab_Update.docx.
+   And there is the network configuration that can be entered as described in previous update.
+   It is kept in storage beyond power off.
+   It can be used for instance when you go to your club. 
+b) mistyped a letter or two while entering the password or Host IP address? No worries, use the 
+   correction button to delete the last letter. Each time you press the button the last appearing 
+   letter is removed.
+
+
