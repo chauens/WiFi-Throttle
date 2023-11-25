@@ -1,5 +1,5 @@
 # WiFi-Throttle for model railroading using DCC with JMRI.
-Download files WiCabFiles.zip and WiCabSource.zip and extract. They contain everything needed to build this Wireless throttle.
+Download files MCabFiles.zip and MiCabSource.zip and extract. They contain everything needed to build this Wireless throttle.
 The throttle uses an “ESP32” development board and some “dedicated” switches: a toggle Switch for Bell, a toggle Switch for Direction, real knob for the Speed. A Button for Whistle/Horn - short and long (short push/long push). And a button for Couplers – rear and front on separate functions, activated depending on direction, or on same function, or just for the “push/pull away-action”. “Dedicated” means: a switch called i.e. “Bell” calls the function “Bell” in a decoder no matter what function number it has configured for the Bell.
 Because the throttle connects to the JMRI WiThrottle Server it is independent from the type of DCC system. 
 The functions are configured in the JMRI roster.
