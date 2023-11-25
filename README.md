@@ -40,6 +40,6 @@ Features:
 <li>Display the Fast Clock from JMRI.</li>
 <li>Display turns dark when not in use for 2 minutes.</li> 
 <li>Utilizing heartbeat control in JMRI.</li> 
-<li>upport for 28 functions as supported by JMRI.</li>
+<li>Support for 28 functions as supported by JMRI.</li>
 <li>The last 6 DCC addresses are kept in a stack beyond power off for quick access.</li> 
 <li>Monitor the battery charge.</li>
