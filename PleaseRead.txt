@@ -44,7 +44,7 @@ Previous version 231028:
 See File MCabUpdate.docx within zip file MCabFiles for a description of the update.
 See file MCabSource for the new source code. 
 
-New version 231113:
+Previous version 231113:
 a) New location setting: the code provides a “default = hardcoded” network configuration. 
    It can be used for instance for your home layout and can only be changed by altering 
    the code as described in the MCab_Update.docx.
@@ -54,4 +54,7 @@ a) New location setting: the code provides a “default = hardcoded” network c
 b) mistyped the password or Host IP address while entering it? No worries, use the 
    correction button to remove the last character. Repeat to remove another character.
 
+New version 231201:
+   integrated code as comments for future WiCabV2. Solved minor bugs and added
+   send/receive indicator to help in debug.
 
