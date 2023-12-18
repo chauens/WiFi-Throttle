@@ -60,3 +60,6 @@ Previous version 231201:
 New version 231201.5 (just uploaded):
    at end of 'throttle network setup' ask for home or club. Fixed a problem in 
    network selection.
+Working on (throttle setup):
+a) enter port number via keypad
+b) enter host ip address via keypad also
