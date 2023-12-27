@@ -57,9 +57,8 @@ b) mistyped the password or Host IP address while entering it? No worries, use t
 Previous version 231201:
    integrated code as comments for future WiCabV2. Solved minor bugs and added
    send/receive indicator to help in debug.
-New version 231201.5 (just uploaded):
+Previous version 231201.5:
    at end of 'throttle network setup' ask for home or club. Fixed a problem in 
    network selection.
-Working on (throttle setup):
-a) enter port number via keypad
-b) enter host ip address via keypad also
+New version 231226:
+   enter port number and host ip address via keypad
