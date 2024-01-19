@@ -62,3 +62,5 @@ Previous version 231201.5:
    network selection.
 New version 231226:
    enter port number and host ip address via keypad
+Latest version:
+   added options for skipping each step in startup config, and fixed a few issues. 
