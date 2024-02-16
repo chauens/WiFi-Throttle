@@ -6,7 +6,10 @@ The functions are configured in the JMRI roster.
 <ol>
 The main components in my throttle are:
 </ol>
-  <li>DIY Keypad with 16 buttons in 4 rows and 4 columns.</li> 
+  <li>DIY Keypad with 16 buttons in 4 rows and 4 columns, plus 4 extra buttons</li> 
+  <li>for dedicated functions.</li>li>
+  <li>Dedicated functions can be mapped to the buttons differently in each function group,</li>
+  <li>providing for 12 functions specifically to these buttons. Further info in doc's.</li>
   <li>OLED 128x64 like SSD1306 type with I2C controller, 3-5V.</li>
   <li>Rotary Encoder.</li>
   <li>ESP32 based development board.</li>
@@ -20,7 +23,7 @@ The main components in my throttle are:
   <li>In my case I loaded the JMRI Panel Pro on a Raspberry Pi.</li>
 </ol>
 <ol>
-As mentioned above the throttle has “Dedicated” switches. They are named: Whistle-short, Whistle-long, Bell, Coupler-rear, Coupler-front, Shunting, Drive-hold, Fade.
+As mentioned above the throttle has “Dedicated” switches. They are named: Whistle-short, Whistle-long, Bell, Coupler-rear, Coupler-front, Shunting, Drive-hold, Fade, Sound.
 </ol>
 <ol>
 The JMRI WiThrottle Server Roster entries determine which function number is assigned to the extra Switches on the throttle. 
@@ -28,8 +31,7 @@ A matching function name in the JMRI-Roster selects the function number that wil
 So all you need to do is go to the JMRI Roster and put the names of the switches to the function number of the locomotive. If a function is not available or not needed, just don’t define it in the Roster.
 </ol>
 Features:
-<li>Network Credentials can be entered during setup. See MCabConfig.docx in
-zip file MCabFiles and new source code in zip file MCabSource. </i>
+<li>Network Credentials can be entered during setup. See WiCabV2_Operation.docx and WiCabV2_Documentation.docx. </i>
 <li>The parts Host-IP-Address and Port of the Network Credentials are entered using the keypad. </li>
 <li>Can be configured as Single- or Multi-Throttle for up to 6.</li>
 <li>Select DCC addresses from the roster in JMRI by stepping through the roster turning the Speed Knob.</li>
