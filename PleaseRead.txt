@@ -1,6 +1,0 @@
-New version uploaded:
-The 4 dedicated buttons can be mapped to different functions in Function Groups 1 and 2, 
-providing for 8 additional functions mapped individually as desired.
-For more details please read the new documents.
-
-March 20.2024: Network SSID can also be manually entered. See documentation.
