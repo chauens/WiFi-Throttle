@@ -1,6 +1,0 @@
-New version V2.1 uploaded in 2 zip files:
-WiCabV2.1Files.zip
-SiCabV2.1Source.zip
-
-New: 2 additional buttons, one on each side,
-     Gerber files for creating your PCB's.
