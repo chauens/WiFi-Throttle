@@ -1,0 +1,11 @@
+New version V2.3 uploaded in zip files:
+WiFi_Multi_Throttle_V2_Files.zip
+WiFi_Multi_Throttle_V2_Source.zip
+
+Gerber files for creating your PCB's.
+
+Source-file content:
+sketch_WiFi_Multi_Throttle_V2.3_y.m.d.
+This combines 2.1 and 2.2 versions and fixes "very hidden" bugs. 
+
+Please read the documentation for some important corrections!
