@@ -1,0 +1,14 @@
+New version V2.3_240825 uploaded. See zip files:
+WiFi_Multi_Throttle_V2_Files.zip
+WiFi_Multi_Throttle_V2_Source.zip
+
+Gerber files for creating your PCB's.
+
+Source-file content:
+sketch_WiFi_Multi_Throttle_V2.3_y.m.d.
+This combines 2.1 and 2.2 versions. 
+Rewrite of multi-throttle processing.
+Rewrite of keypad processing.
+Attempt to select a loco that is already active in another throttle# issues a warning message.
+
+Please read the documentation for some important corrections!
