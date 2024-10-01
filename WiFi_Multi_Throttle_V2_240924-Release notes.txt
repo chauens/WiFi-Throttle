@@ -13,7 +13,8 @@ Rewrite of multi-throttle processing.
 Rewrite of keypad processing.
 Attempt to select a loco that is already active in another throttle# issues an info message.
 Select existing JMRI Advanced Consists if enabled in the throttle.
-Added option to select location during normal start up.
+Added option to select location during normal start up. To activate un-commend
+  #define STARTUPLOC.
 
 Plans:
 display all locos of a consist, if there is any interest.
